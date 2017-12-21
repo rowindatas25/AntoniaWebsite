@@ -1,90 +1,20 @@
+/*START OF CSS*/
+
+/*START OF BODY AND HEADERS CSS*/
+
 body {
       font: 400 15px/1.8 Lato, sans-serif;
       color: #777;
   }
+
 
   no-gutter > [class*='col-'] {
     padding-right:0;
     padding-left:0;
 }
 
-  #cover {
-      background-image: url("cover photo.jpg");
-      background-size: 100%;
-      min-width: 100%;
-      min-height: 900px;
-      background-repeat: no-repeat;
-      background-color: #F8C7CC;
 
-  }
-
-  
-  .bg-4 {
-    background-color: #000000;
-    min-width: 100%;
-    height: auto;
-    
-  }
-
-  i {
-    margin-right: 100px;
-    margin-left: 100px; 
-    margin-top: 50px;
-  }
-
-  .me, #hello {
-    color: #ffffff;
-  }
-
-  #hello {
-    letter-spacing: 7px;
-    margin-top: 50px;
-  }
-
-
-  #aboutme {
-    background-color: #F8C7CC;
-    min-width: 100%;
-    
-  }
-
-  #resume {
-    background-color: #F8C7CC;
-    min-width: 100%;
-    height: 900px;
-    letter-spacing: 0px;
-  }
-
-  .img-responsive {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 10px;
-  }
-
-  #avatar {
-    height: 300px;
-    width: 225px;
-    margin: 0 auto;
-    
-  }
-
-  #respic {
-
-    margin: 0 auto;
-  }
-
-  p.text, p.hi {
-    font-size: 18.5px;
-    color: #000000;
-  }
-
-  footer {
-    min-width: 100%;
-  }
-
-
-  h2, h4 {
+h2, h4 {
       margin: 10px 0 30px 0;
       letter-spacing: 10px;      
       font-size: 20px;
@@ -100,44 +30,11 @@ body {
 
 
 
+/*END OF BODY AND HEADERS CSS*/
 
+/*START OF NAVBAR CSS*/
 
-
-  .container {
-      padding: 100px 120px;
-  }
- 
-  .carousel-inner img {
-      
-      width: 100%; /* Set width to 100% */
-      margin: auto;
-      height: 500px;
-  }
-  .carousel-caption h3 {
-      color: #fff !important;
-  }
-  @media (max-width: 600px) {
-    .carousel-caption {
-      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-    }
-  }
-  .bg-1 {
-      background: #FFE2D1;
-      color: #bdbdbd;
-  }
-  .bg-1 h3 {color: #fff;}
-  .bg-1 p {font-style: italic;}
-  .list-group-item:first-child {
-      border-top-right-radius: 0;
-      border-top-left-radius: 0;
-  }
-  .list-group-item:last-child {
-      border-bottom-right-radius: 0;
-      border-bottom-left-radius: 0;
-  }
-  
-  
-  .nav-tabs li a {
+ .nav-tabs li a {
       color: #000000;
   }
   
@@ -164,12 +61,141 @@ body {
   .navbar-default .navbar-toggle {
       border-color: transparent;
   }
+
+/*  END OF NAVBAR CSS*/
+
+/*START OF COVER PHOTO CSS*/
+
+  #cover {
+      background-image: url("cover photo.jpg");
+      background-size: 100%;
+      min-width: 100%;
+      min-height: 900px;
+      background-repeat: no-repeat;
+      background-color: #F8C7CC;
+
+  }
+
+/*  END OF COVER PHOTO CSS*/
+
+/*START OF ICON CSS*/
+
+i {
+    margin-right: 100px;
+    margin-left: 100px; 
+    margin-top: 50px;
+  }
+
+/*  END OF ICON CSS*/
+
+/*  START OF ABOUT ME CSS*/
+
+  .me, #hello {
+    color: #ffffff;
+  }
+
+  #hello {
+    letter-spacing: 7px;
+    margin-top: 50px;
+  }
+
+  .me {
+    margin-left: 100px;
+  }
+
+
+  #aboutme {
+    background-color: #F8C7CC;
+    min-width: 100%;
+    
+  }
+
+  p.text, p.hi {
+    font-size: 18.5px;
+    color: #000000;
+    margin: 0 auto;
+    text-align: center;
+
+  }
+
+  .img-responsive {
+    max-width: 100%;
+    max-height: 700px;
+    display: block;
+    border-radius: 10px;
+    margin: 0 auto;
+
+  }
+
+/*  END OF ABOUT ME CSS*/
+
+/*START OF CAROUSEL CSS  */
+
+  .container {
+      padding: 100px 120px;
+  }
+ 
+  .carousel-inner img {
+      
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      height: 500px;
+  }
+  .carousel-caption h3 {
+      color: #ffffff !important;
+      letter-spacing: 8px;
+  }
+
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
+  .bg-1 {
+      background: #FFE2D1;
+      color: #bdbdbd;
+  }
+  .bg-1 h3 {color: #fff;}
+  .bg-1 p {font-style: italic;}
+  .list-group-item:first-child {
+      border-top-right-radius: 0;
+      border-top-left-radius: 0;
+  }
+  .list-group-item:last-child {
+      border-bottom-right-radius: 0;
+      border-bottom-left-radius: 0;
+  }
+
+/*  END OF CAROUSEL CSS*/
+
+/*START OF RESUME CSS*/
+  
+  #resume {
+    background-color: #F8C7CC;
+    min-width: 100%;
+    /*min-height: 900px;*/
+    height: auto;
+    letter-spacing: 0px;
+  }
+
+  
+  #respic {
+    margin: 0 auto;
+  }
+
+/*  END OF RESUME CSS*/
+
+
+  
+/*START OF CONTACT CSS*/
+ 
   
   footer {
       background-color: #2d2d30;
       color: #f5f5f5;
       padding: 32px;
       font: 400 15px/1.8 Lato, sans-serif;
+      min-width: 100%;
   }
   footer a {
       color: #f5f5f5;
@@ -178,11 +204,29 @@ body {
       color: #F8C7CC;
       text-decoration: none;
   }  
+
+  .bg-4 {
+    background-color: #000000;
+    min-width: 100%;
+    height: auto;
+    
+  }
+
+  #avatar {
+    height: 300px;
+    width: 225px;
+    margin: 0 auto;
+    
+  }
+
   textarea {
       resize: none;
   }
 
+/*END OF CONTACT CSS*/
+
   
+/*  START OF MEDIA QUERIES*/
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-height  : 640px) {
@@ -190,22 +234,73 @@ body {
     margin-top: 100px;
   }
 
+  .me {
+    margin: 0 auto;
+  }
+
+  p.text {
+    margin: 0 auto;
+  }
+
+  #big {
+    margin-bottom: 50px;
+
+  }
+
+  div#resume {
+    height: auto;
+  }
+
 }
 
 
 /* Custom, iPhone Retina */ 
 @media only screen and (max-height : 667px) {
- div#cover {
-  max-height: 100px;
- }
+ .me {
+    margin: 0 auto;
+  }
 
- div#aboutme {
-  min-width: 200px;
- }
+  p.text {
+    margin: 0 auto;
+  }
+
+  #big {
+    margin-bottom: 50px;
+
+  }
 
   div#resume {
-  max-height: 600px;
- }
+    height: auto;
+  }
+
+}
+
+
+@media only screen and (min-width : 412px) {
+  .me {
+    margin: 0 auto;
+  }
+
+  p.text {
+    margin: 0 auto;
+  }
+
+}
+
+@media only screen and (min-width : 460px) {
+  .me {
+    margin: 0 auto;
+  }
+
+  p.text {
+    margin: 0 auto;
+  }
+
+  #big {
+    margin-bottom: 50px;
+  }
+
+
 
 }
 
@@ -221,16 +316,68 @@ body {
   min-width: 200px;
  }
 
+ .me {
+    margin: 0 auto;
+  }
+
+  p.text {
+    text-align: left;
+  }
+
+  #big {
+    margin-bottom: 50px;
+
+  }
+
   div#resume {
-  max-height: 600px;
- }
+    height: auto;
+  }
 
 }
+
+
+
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-height : 736px) {
   div#cover {
   min-height: 50px;
+
+ }
+
+ /*div#aboutme {
+  min-width: 200px;
+ }*/
+
+  div#resume {
+  max-height: 650px;
+ }
+
+ .me {
+    margin: 0 auto;
+  }
+
+  p.text {
+    margin: 0 auto;
+  }
+
+  #big {
+    margin-bottom: 50px;
+
+  }
+
+  div#resume {
+    height: auto;
+  }
+
+}
+
+
+
+@media only screen and (max-height : 739px) {
+  div#cover {
+  min-height: 50px;
+
  }
 
  div#aboutme {
@@ -238,16 +385,21 @@ body {
  }
 
   div#resume {
-  max-height: 650px;
+  min-height: 950px;
  }
 
 }
+
+
+
 
 
 /* Medium Devices, Desktops */
 @media only screen and (max-height : 812px) {
    div#cover {
     min-height: 50px;
+    border: none;
+    
  }
 
   div#aboutme {
@@ -255,21 +407,36 @@ body {
  }
 
  div#resume {
-  max-height: 600px;
+    max-height: 600px;
  }
 
+ .me {
+  margin: 0 auto;
+ }
+
+  #big {
+    margin-bottom: 50px;
+
+  }
+
 }
 
-@media only screen and (min-width: 1024px) {
-  p.text {
-    margin: 0 auto;
-  }
+
+
+
+
+
+
+
+
   
 
-}
 
 
 
+/*END OF MEDIA QUERIES*/
+
+/*END OF CSS*/
 
 
 
