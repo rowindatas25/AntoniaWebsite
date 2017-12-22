@@ -173,7 +173,7 @@ i {
   #resume {
     background-color: #F8C7CC;
     min-width: 100%;
-    /*min-height: 900px;*/
+    min-height: 1200px;
     height: auto;
     letter-spacing: 0px;
   }
@@ -234,6 +234,10 @@ i {
     margin-top: 100px;
   }
 
+  div#aboutme {
+    margin-top: -950px;
+  }
+
   .me {
     margin: 0 auto;
   }
@@ -243,12 +247,13 @@ i {
   }
 
   #big {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 
   }
 
   div#resume {
     height: auto;
+    margin-bottom: -350px;
   }
 
 }
@@ -260,17 +265,22 @@ i {
     margin: 0 auto;
   }
 
+  div#aboutme {
+    margin-top: -650px;
+  }
+
   p.text {
     margin: 0 auto;
   }
 
   #big {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 
   }
 
   div#resume {
     height: auto;
+    margin-bottom: -500px;
   }
 
 }
@@ -297,7 +307,7 @@ i {
   }
 
   #big {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
   }
 
 
@@ -309,12 +319,13 @@ i {
 /* Small Devices, Tablets */
 @media only screen and (max-height : 732px) {
   div#cover {
-  min-height: 50px;
+  min-height: 100px;
  }
 
  div#aboutme {
-  min-width: 200px;
- }
+    margin-top: -650px;
+    min-width: 200px;
+  }
 
  .me {
     margin: 0 auto;
@@ -345,9 +356,9 @@ i {
 
  }
 
- /*div#aboutme {
-  min-width: 200px;
- }*/
+ div#aboutme {
+    margin-top: -650px;
+  }
 
   div#resume {
   max-height: 650px;
@@ -377,15 +388,21 @@ i {
 @media only screen and (max-height : 739px) {
   div#cover {
   min-height: 50px;
-
+  
  }
 
  div#aboutme {
   min-width: 200px;
+  margin-top: -650px;
  }
 
   div#resume {
-  min-height: 950px;
+    min-height: 950px;
+    margin-bottom: -200px;
+ }
+
+ #big {
+  margin-top: -100px;
  }
 
 }
@@ -403,11 +420,74 @@ i {
  }
 
   div#aboutme {
+    margin-top: -650px;
+  }
+
+ div#resume {
+    max-height: 600px;
+    margin-bottom: -300px;
+ }
+
+ .me {
+  margin: 0 auto;
+
+ }
+
+  #big {
+    margin-bottom: -350px;
+
+  }
+
+}
+
+@media only screen and (min-width : 768px) {
+   div#cover {
+    min-height: 50px;
+    border: none;
+    
+ }
+
+  div#aboutme {
+    margin-top: -50px;
+  }
+
+ div#resume {
+    max-height: 600px;
+    margin-bottom: -300px;
+ }
+
+ .me {
+  margin: 0 auto;
+
+ }
+
+  #big {
+    margin-bottom: -350px;
+
+  }
+
+}
+
+
+
+
+@media only screen and (min-width : 1412px) {
+    div#cover {
+      background-image: url("cover photo.jpg");
+      background-size: 100%;
+      min-width: 100%;
+      min-height: 900px;
+      background-repeat: no-repeat;
+      background-color: #F8C7CC;
+    
+ }
+
+  div#aboutme {
     min-width: 200px;
  }
 
  div#resume {
-    max-height: 600px;
+    max-height: 1000px;
  }
 
  .me {
@@ -416,10 +496,53 @@ i {
 
   #big {
     margin-bottom: 50px;
+    margin-top: 10px;
+  }
 
+  #contact {
+    margin-top: 200px;
   }
 
 }
+
+@media only screen and (max-width : 1411px) {
+    div#cover {
+      background-image: url("cover photo.jpg");
+      background-size: 100%;
+      min-width: 100%;
+      min-height: 900px;
+      background-repeat: no-repeat;
+      background-color: #F8C7CC;
+    
+ }
+
+  div#aboutme {
+    min-width: 200px;
+ }
+
+ div#resume {
+    max-height: 1000px;
+
+ }
+
+ .me {
+  margin: 0 auto;
+ }
+
+  #big {
+    margin-top: 10px;
+    margin-bottom: 50px;
+
+  }
+
+  #contact {
+    margin-top: 300px;
+  }
+
+}
+
+
+
 
 
 
