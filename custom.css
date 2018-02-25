@@ -8,6 +8,11 @@ body {
     color: #777;
 }
 
+body,html {
+  margin:0;
+  padding:0;
+}
+
 
 no-gutter>[class*='col-'] {
     padding-right: 0;
@@ -28,6 +33,10 @@ h3 {
     letter-spacing: 10px;
     font-size: 20px;
     color: #ffffff;
+}
+
+h3.name {
+  font-size: 20px;
 }
 
 
@@ -79,7 +88,7 @@ h3 {
     background-image: url("cover photo.jpg");
     background-size: 100%;
     min-width: 100%;
-    min-height: 900px;
+    /*min-height: 900px;*/
     background-repeat: no-repeat;
     background-color: #F8C7CC;
 }
@@ -114,6 +123,7 @@ i {
 
 .me {
     margin-left: 100px;
+
 }
 
 
@@ -127,20 +137,17 @@ p.hi {
     font-size: 18.5px;
     color: #000000;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
 }
 
 .img-responsive {
     max-width: 100%;
-    max-height: 700px;
+    max-height: 800px;
     display: block;
     border-radius: 10px;
     margin: 0 auto;
 }
 
-#big {
-    margin-top: 50px;
-}
 
 
 /*  END OF ABOUT ME CSS*/
@@ -150,14 +157,18 @@ p.hi {
 
 .container {
     padding: 100px 120px;
+    height: auto;
+
 }
+
+
 
 .carousel-inner img {
 
     width: 100%;
     /* Set width to 100% */
     margin: auto;
-    height: 500px;
+    height: 700px;
 }
 
 .carousel-caption h3 {
@@ -195,6 +206,13 @@ p.hi {
     border-bottom-left-radius: 0;
 }
 
+#myCarousel2 {
+  margin-top: 200px;
+  margin-bottom: -200px;
+}
+
+
+
 
 /*  END OF CAROUSEL CSS*/
 
@@ -204,8 +222,7 @@ p.hi {
 #resume {
     background-color: #F8C7CC;
     min-width: 100%;
-    min-height: 1200px;
-    height: auto;
+    min-height: 1100px;
     letter-spacing: 0px;
 }
 
@@ -221,11 +238,14 @@ p.hi {
 /*START OF CONTACT CSS*/
 
 footer {
-    background-color: #2d2d30;
+    background-color: #000000;
     color: #f5f5f5;
     padding: 32px;
     font: 400 15px/1.8 Lato, sans-serif;
     min-width: 100%;
+    margin-top: 300px;
+
+   
 }
 
 footer a {
@@ -240,7 +260,7 @@ footer a:hover {
 .bg-4 {
     background-color: #000000;
     min-width: 100%;
-    height: auto;
+    
 }
 
 #avatar {
@@ -263,12 +283,23 @@ textarea {
 /* Extra Small Devices, Phones */
 
 @media only screen and (max-height: 640px) {
+
+ 
+    
+    h3.name {
+      margin-left: -110px;
+      font-size: 12px;
+    }
+
     div#cover {
         margin-top: 100px;
+        text-align: left;
+        min-height: 100%;
+        background-color: #F8C7CC;
     }
 
     div#aboutme {
-        margin-top: -950px;
+        /*margin-top: -950px;*/
     }
 
     .me {
@@ -285,8 +316,17 @@ textarea {
 
     div#resume {
         height: auto;
-        margin-bottom: -350px;
+        /*margin-bottom: -350px;*/
     }
+
+
+
+    div#myCarousel2 {
+      margin-bottom: -300px;
+    }
+
+  
+
 }
 
 
@@ -294,12 +334,26 @@ textarea {
 /* Custom, iPhone Retina */
 
 @media only screen and (max-height: 667px) {
+
+
+  div#cover {
+    min-height: 100%;
+    background-color: #F8C7CC;
+    margin-top: 50px;
+  }
+
+
+  h3.name {
+      margin-left: -150px;
+      font-size: 10px;
+    }
+
     .me {
         margin: 0 auto;
     }
 
     div#aboutme {
-        margin-top: -650px;
+        /*margin-top: -650px;*/
     }
 
     p.text {
@@ -312,7 +366,26 @@ textarea {
 
     div#resume {
         height: auto;
-        margin-bottom: -500px;
+       /* margin-bottom: -500px;*/
+    }
+
+    div#myCarousel2 {
+      margin-bottom: -300px;
+    }
+
+
+
+}
+
+@media only screen and (min-width: 340px) {
+
+
+    .me {
+        margin: 0 auto;
+    }
+
+    p.text {
+        margin: 0 auto;
     }
 }
 
@@ -347,8 +420,14 @@ textarea {
 /* Small Devices, Tablets */
 
 @media only screen and (max-height: 732px) {
+    h3.name {
+      margin-left: -200px;
+      font-size: 12px;
+    }
+
     div#cover {
         min-height: 100px;
+        background-color: #F8C7CC;
     }
 
     div#aboutme {
@@ -371,6 +450,13 @@ textarea {
     div#resume {
         height: auto;
     }
+
+    div#myCarousel2 {
+      margin-bottom: -300px;
+    }
+
+
+
 }
 
 
@@ -380,8 +466,14 @@ textarea {
 /* Extra Small Devices, Phones */
 
 @media only screen and (max-height: 736px) {
+  h3.name {
+      margin-left: -310px;
+      font-size: 12px;
+    }
+
     div#cover {
         min-height: 50px;
+        background-color: #F8C7CC;
     }
 
     div#aboutme {
@@ -407,13 +499,24 @@ textarea {
     div#resume {
         height: auto;
     }
+
+
+    div#myCarousel2 {
+      margin-bottom: -300px;
+    }
+
 }
 
 
 
 @media only screen and (max-height: 739px) {
+  h3.name {
+      margin-left: -110px;
+    }
+
     div#cover {
         min-height: 50px;
+        background-color: #F8C7CC;
     }
 
     div#aboutme {
@@ -429,6 +532,11 @@ textarea {
     #big {
         margin-top: -100px;
     }
+
+    div#myCarousel2 {
+      margin-bottom: -300px;
+    }
+
 }
 
 
@@ -439,9 +547,14 @@ textarea {
 /* Medium Devices, Desktops */
 
 @media only screen and (max-height: 812px) {
+  h3.name {
+      margin-left: -110px;
+    }
+
     div#cover {
         min-height: 50px;
         border: none;
+        background-color: #F8C7CC;
     }
 
     div#aboutme {
@@ -460,6 +573,11 @@ textarea {
     #big {
         margin-bottom: -350px;
     }
+
+    div#myCarousel2 {
+      margin-bottom: -300px;
+    }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -488,8 +606,7 @@ textarea {
 
 
 
-
-@media only screen and (min-width: 1412px) {
+@media only screen and (min-width: 1440px) {
     div#cover {
         background-image: url("cover photo.jpg");
         background-size: 100%;
@@ -515,13 +632,17 @@ textarea {
         margin-bottom: 50px;
         margin-top: 10px;
     }
+
 
     #contact {
         margin-top: 200px;
+
     }
+
+    
 }
 
-@media only screen and (max-width: 1411px) {
+@media only screen and (max-width: 1439px) {
     div#cover {
         background-image: url("cover photo.jpg");
         background-size: 100%;
@@ -548,9 +669,10 @@ textarea {
         margin-bottom: 50px;
     }
 
-    #contact {
-        margin-top: 300px;
-    }
+  
+   
+    
+    
 }
 
 
