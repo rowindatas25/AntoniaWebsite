@@ -539,6 +539,11 @@ textarea {
       margin-bottom: -300px;
     }
 
+    div#video {
+        margin-top: 300px;
+        margin-bottom: -600px;
+    }
+
 }
 
 
@@ -569,6 +574,11 @@ textarea {
 
     div#myCarousel2 {
       margin-bottom: -300px;
+    }
+
+    div#video {
+        margin-top: 300px;
+        margin-bottom: -600px;
     }
 
 }
@@ -612,6 +622,11 @@ textarea {
       margin-bottom: -300px;
     }
 
+    div#video {
+        margin-top: 300px;
+        margin-bottom: -600px;
+    }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -636,6 +651,7 @@ textarea {
     #big {
         margin-bottom: -350px;
     }
+
 }
 
 
