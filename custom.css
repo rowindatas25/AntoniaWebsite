@@ -331,7 +331,7 @@ textarea {
     }
 
     div#resume {
-        min-height: 600px;
+        min-height: 400px;
         
     }
 
@@ -570,7 +570,7 @@ textarea {
     }
 
     div#resume {
-        max-height: 600px;
+        min-height: 800px;
         margin-bottom: -300px;
     }
 
