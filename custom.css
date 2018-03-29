@@ -331,8 +331,8 @@ textarea {
     }
 
     div#resume {
-        height: auto;
-        /*margin-bottom: -350px;*/
+        min-height: 600px;
+        
     }
 
 
@@ -343,7 +343,8 @@ textarea {
 
     div#video {
         margin-top: 300px;
-        margin-bottom: -600px;
+        min-height: 600px;
+        
     }
 
 
@@ -398,50 +399,13 @@ textarea {
 
     div#video {
         margin-top: 300px;
-        margin-bottom: -600px;
+        min-height: 600px;
     }
 
 
 }
 
-@media only screen and (min-width: 340px) {
 
-
-    .me {
-        margin: 0 auto;
-    }
-
-    p.text {
-        margin: 0 auto;
-    }
-}
-
-
-@media only screen and (min-width: 412px) {
-    .me {
-        margin: 0 auto;
-    }
-
-    p.text {
-        margin: 0 auto;
-    }
-}
-
-@media only screen and (min-width: 460px) {
-    .me {
-        margin: 0 auto;
-    }
-
-    p.text {
-        margin: 0 auto;
-    }
-
-    #big {
-        margin-bottom: 100px;
-    }
-
-    
-}
 
 
 
@@ -486,7 +450,7 @@ textarea {
 
     div#video {
         margin-top: 300px;
-        margin-bottom: -600px;
+        min-height: 600px;
     }
 
 
@@ -541,7 +505,7 @@ textarea {
 
     div#video {
         margin-top: 300px;
-        margin-bottom: -600px;
+        min-height: 600px;
     }
 
 }
@@ -578,7 +542,7 @@ textarea {
 
     div#video {
         margin-top: 300px;
-        margin-bottom: -600px;
+        min-height: 600px;
     }
 
 }
@@ -624,7 +588,7 @@ textarea {
 
     div#video {
         margin-top: 300px;
-        margin-bottom: -600px;
+        min-height: 600px;
     }
 
 }
@@ -663,9 +627,48 @@ textarea {
 
     div#video {
         margin-top: 300px;
-        margin-bottom: -600px;
+        min-height: 600px;
     }
 
+}
+
+@media only screen and (min-width: 340px) {
+
+
+    .me {
+        margin: 0 auto;
+    }
+
+    p.text {
+        margin: 0 auto;
+    }
+}
+
+
+@media only screen and (min-width: 412px) {
+    .me {
+        margin: 0 auto;
+    }
+
+    p.text {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 460px) {
+    .me {
+        margin: 0 auto;
+    }
+
+    p.text {
+        margin: 0 auto;
+    }
+
+    #big {
+        margin-bottom: 100px;
+    }
+
+    
 }
 
 @media only screen and (min-width: 768px) {
