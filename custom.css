@@ -629,6 +629,45 @@ textarea {
 
 }
 
+@media only screen and (max-height: 823px) {
+  h3.name {
+      margin-left: -110px;
+    }
+
+    div#cover {
+        min-height: 50px;
+        border: none;
+        background-color: #F8C7CC;
+    }
+
+    div#aboutme {
+        margin-top: -650px;
+    }
+
+    div#resume {
+        max-height: 600px;
+        margin-bottom: -300px;
+    }
+
+    .me {
+        margin: 0 auto;
+    }
+
+    #big {
+        margin-bottom: -350px;
+    }
+
+    div#myCarousel2 {
+      margin-bottom: -300px;
+    }
+
+    div#video {
+        margin-top: 300px;
+        margin-bottom: -600px;
+    }
+
+}
+
 @media only screen and (min-width: 768px) {
     div#cover {
         min-height: 50px;
