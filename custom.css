@@ -331,8 +331,8 @@ textarea {
     }
 
     div#resume {
-        min-height: 400px;
-        
+        height: auto;
+        /*margin-bottom: -350px;*/
     }
 
 
@@ -505,7 +505,7 @@ textarea {
 
     div#video {
         margin-top: 300px;
-        min-height: 600px;
+         min-height: 600px;
     }
 
 }
@@ -542,7 +542,7 @@ textarea {
 
     div#video {
         margin-top: 300px;
-        min-height: 600px;
+         min-height: 600px;
     }
 
 }
@@ -570,7 +570,7 @@ textarea {
     }
 
     div#resume {
-        min-height: 800px;
+        max-height: 600px;
         margin-bottom: -300px;
     }
 
@@ -588,7 +588,7 @@ textarea {
 
     div#video {
         margin-top: 300px;
-        min-height: 600px;
+         min-height: 600px;
     }
 
 }
@@ -655,7 +655,7 @@ textarea {
     }
 }
 
-@media only screen and (min-width: 460px) {
+@media only screen and (max-width: 460px) {
     .me {
         margin: 0 auto;
     }
@@ -668,17 +668,22 @@ textarea {
         margin-bottom: 100px;
     }
 
+    div#video {
+        min-height: 500px;
+    }
+
     
 }
 
 @media only screen and (min-width: 768px) {
     div#cover {
-        min-height: 50px;
+        max-height: 350px;
         border: none;
     }
 
     div#aboutme {
         margin-top: -50px;
+
     }
 
     div#resume {
@@ -694,11 +699,18 @@ textarea {
         margin-bottom: -350px;
     }
 
+
+
 }
 
+@media only screen and(max-width: 1024px) {
+    div#aboutme {
+        text-align: center;
+        margin-left: 500px;
+    }
+}
 
-
-@media only screen and (min-width: 1440px) {
+@media only screen and (max-width: 1440px) {
     div#cover {
         background-image: url("cover photo.jpg");
         background-size: 100%;
@@ -713,7 +725,7 @@ textarea {
     }
 
     div#resume {
-        max-height: 1000px;
+        min-height: 1200px;
     }
 
     .me {
@@ -732,6 +744,10 @@ textarea {
     }
 
     
+    div#video {
+        min-height: 1000px;
+    } 
+    
 }
 
 @media only screen and (max-width: 1439px) {
@@ -749,7 +765,7 @@ textarea {
     }
 
     div#resume {
-        max-height: 1000px;
+        min-height: 1200px;
     }
 
     .me {
@@ -762,7 +778,9 @@ textarea {
     }
 
   
-   
+    div#video {
+        min-height: 1100px;
+    } 
     
     
 }
